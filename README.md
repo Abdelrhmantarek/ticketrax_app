@@ -122,7 +122,6 @@ cd ticketrax_app
    ```bash
    cd ../client
    npm i
-   npm run dev
    ```
 2. Copy `.env.example` to `.env` and fill in API endpoint:
    ```bash
