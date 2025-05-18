@@ -197,8 +197,8 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ---
 
-## 📞 Contact
+## 🪄 Contact
 
-For questions, reach out at **abdelrhman.tareekk@gmail.com**.
+Reach out at **abdelrhman.tareekk@gmail.com**.
 
-Happy coding! 🪄
+Happy coding!
