@@ -1,0 +1,63 @@
+ticketrax_app/
+    server/
+    client/
+    ├── node_modules/
+    ├── public/
+    │    ├── favicon.ico
+    │    ├── placeholder.svg
+    │    └── robots.txt
+    ├── src/
+        ├── components/
+            │   ├── admin/
+            │   │   ├── AdminLayout.tsx
+            │   │   └── AdminSidebar.tsx
+            │   ├── ui/
+            │   ├── AppRouter.tsx
+            │   ├── Footer.tsx
+            │   ├── Loader.tsx
+            │   ├── Navbar.tsx
+            │   ├── TicketCard.tsx
+            │   ├── TicketPriorityBadge.tsx
+            │   └── TicketStatusBadge.tsx
+        ├── context/
+        │   ├── AuthContext.tsx
+        │   └── TicketContext.tsx
+        ├── hooks/
+        │   ├── use-mobile.tsx
+        │   └── use-toast.ts
+        ├── lib/
+        │   └── utils.ts
+        ├── pages/
+            ├── admin/
+            │   ├── Dashboard.tsx
+            │   ├── Login.tsx
+            │   ├── TicketDetail.tsx
+            │   └── TicketList.tsx
+            ├── index.tsx
+            ├── NotFound.tsx
+            ├── SubmitTicket.tsx
+            └── TicketSubmitted.tsx
+        ├── services/
+        │   ├── authService.ts
+        │   └── ticketService.ts
+        ├── App.css
+        ├── App.tsx
+        ├── index.css
+        ├── main.tsx
+    │   └── vite-env.d.ts 
+    ├── .env
+    ├── .gitignore
+    ├── bun.lockb
+    ├── components.json
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── structure.txt
+    ├── tailwind.config.js
+    ├── tsconfig.app.json
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    └── vite.config.ts

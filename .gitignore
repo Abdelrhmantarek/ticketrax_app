@@ -1,0 +1,63 @@
+# Python / Django
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+scripts/
+tmp/
+var/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.env
+db.sqlite3
+
+# Django migrations (keep migrations folders, but not compiled files)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# macOS / OS specific
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+/client/node_modules/
+/client/dist/
+/client/.env
+/client/.env.*
+
+# Lock files (optional: include or ignore based on team preference)
+# Uncomment if you prefer not to track lock files:
+# package-lock.json
+
+# Logs and coverage
+coverage/
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Misc
+*.swp
+*~
+
+# Example env file
+!.env.example
